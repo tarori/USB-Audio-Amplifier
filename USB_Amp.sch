@@ -4072,6 +4072,48 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <text x="-1.905" y="1.905" size="1.016" layer="25">&gt;VALUE</text>
 <text x="-1.905" y="1.905" size="1.016" layer="27">&gt;VALUE</text>
 </package>
+<package name="5077CR-16-SMC2-BK-TR-2OZ">
+<smd name="A6:DP1" x="-0.25" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="A7:DN1" x="0.25" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="B7:DN2" x="-0.75" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="B6:DP2" x="0.75" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="A5:CC1" x="-1.25" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="A8:SBU1" x="1.25" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="B8:SBU2" x="-1.75" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="B5:CC2" x="1.75" y="0.3" dx="0.28" dy="1.34" layer="1" roundness="12"/>
+<smd name="A1,B12:GND" x="-3.2" y="0.3" dx="0.58" dy="1.34" layer="1" roundness="12"/>
+<smd name="B1,A12:GND" x="3.2" y="0.3" dx="0.58" dy="1.34" layer="1" roundness="12"/>
+<smd name="A4,B9:VBUS" x="-2.4" y="0.3" dx="0.58" dy="1.34" layer="1" roundness="12"/>
+<smd name="B4,A9:VBUS" x="2.4" y="0.3" dx="0.58" dy="1.34" layer="1" roundness="12"/>
+<wire x1="-4.42" y1="-5.05" x2="-4.42" y2="-4.45" width="0.8" layer="46"/>
+<wire x1="4.42" y1="-5.05" x2="4.42" y2="-4.45" width="0.8" layer="46"/>
+<wire x1="-4.42" y1="-1.02" x2="-4.42" y2="-0.12" width="0.8" layer="46"/>
+<wire x1="4.42" y1="-1.02" x2="4.42" y2="-0.12" width="0.8" layer="46"/>
+<wire x1="-4.47" y1="0.32" x2="4.47" y2="0.32" width="0.127" layer="48"/>
+<wire x1="4.47" y1="0.32" x2="4.47" y2="-7.67" width="0.127" layer="21"/>
+<wire x1="4.47" y1="-7.67" x2="-4.47" y2="-7.67" width="0.1016" layer="21"/>
+<wire x1="-4.47" y1="-7.67" x2="-4.47" y2="0.32" width="0.127" layer="21"/>
+<hole x="-2.89" y="-1.07" drill="0.65"/>
+<hole x="2.89" y="-1.07" drill="0.65"/>
+<smd name="SHILED1" x="-4.42" y="-0.57" dx="1.3" dy="2.3" layer="1" roundness="100"/>
+<smd name="SHILED2" x="4.42" y="-0.57" dx="1.3" dy="2.3" layer="1" roundness="100"/>
+<smd name="SHILED3" x="-4.42" y="-4.75" dx="1.4" dy="2.1" layer="1" roundness="100"/>
+<smd name="SHILED4" x="4.42" y="-4.75" dx="1.4" dy="2.1" layer="1" roundness="100"/>
+<smd name="SHILED5" x="-4.42" y="-0.57" dx="1.3" dy="2.3" layer="16" roundness="100"/>
+<smd name="SHILED6" x="-4.42" y="-4.75" dx="1.4" dy="2.1" layer="16" roundness="100"/>
+<smd name="SHILED7" x="4.42" y="-0.57" dx="1.3" dy="2.3" layer="16" roundness="100"/>
+<smd name="SHILED8" x="4.42" y="-4.75" dx="1.4" dy="2.1" layer="16" roundness="100"/>
+<wire x1="-2.8" y1="0" x2="-2.8" y2="0.6" width="0.127" layer="41"/>
+<wire x1="2.8" y1="0" x2="2.8" y2="0.6" width="0.127" layer="41"/>
+<wire x1="3.6" y1="0" x2="3.6" y2="0.4" width="0.127" layer="41"/>
+<wire x1="-3.6" y1="0" x2="-3.6" y2="0.4" width="0.127" layer="41"/>
+<wire x1="-3.2" y1="-0.5" x2="-3" y2="-0.5" width="0.127" layer="41"/>
+<wire x1="3" y1="-0.5" x2="3.2" y2="-0.5" width="0.127" layer="41"/>
+<wire x1="-4.32" y1="-6" x2="-4.32" y2="-7.5" width="0.254" layer="39"/>
+<wire x1="4.32" y1="-6" x2="4.32" y2="-7.5" width="0.254" layer="39"/>
+<wire x1="-4.32" y1="-6" x2="-4.32" y2="-7.5" width="0.254" layer="40"/>
+<wire x1="4.32" y1="-6" x2="4.32" y2="-7.5" width="0.254" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-C">
@@ -4160,6 +4202,20 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <connect gate="G$1" pin="D-" pad="A7:DN1 B7:DN2"/>
 <connect gate="G$1" pin="GND" pad="A1,B12:GND B1,A12:GND"/>
 <connect gate="G$1" pin="VBUS" pad="A4,B9:VBUS B4,A9:VBUS" route="any"/>
+<connect gate="G$1" pin="XT" pad="SHILED1 SHILED2 SHILED3 SHILED4 SHILED5 SHILED6 SHILED7 SHILED8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2OZ" package="5077CR-16-SMC2-BK-TR-2OZ">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5:CC1"/>
+<connect gate="G$1" pin="CC2" pad="B5:CC2"/>
+<connect gate="G$1" pin="D+" pad="A6:DP1 B6:DP2"/>
+<connect gate="G$1" pin="D-" pad="A7:DN1 B7:DN2"/>
+<connect gate="G$1" pin="GND" pad="A1,B12:GND B1,A12:GND"/>
+<connect gate="G$1" pin="VBUS" pad="A4,B9:VBUS B4,A9:VBUS"/>
 <connect gate="G$1" pin="XT" pad="SHILED1 SHILED2 SHILED3 SHILED4 SHILED5 SHILED6 SHILED7 SHILED8"/>
 </connects>
 <technologies>
@@ -4440,7 +4496,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY26" library="my_supply" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="my_supply" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="my_supply" deviceset="GND" device=""/>
-<part name="CON1" library="my_connector" deviceset="USB-C" device=""/>
+<part name="CON1" library="my_connector" deviceset="USB-C" device="-2OZ" value="USB-C-2OZ"/>
 <part name="SUPPLY1" library="my_supply" deviceset="GND" device=""/>
 <part name="R2" library="my_rcl" deviceset="R" device="-1608" value="5.1k"/>
 <part name="R4" library="my_rcl" deviceset="R" device="-1608" value="5.1k"/>
@@ -4554,7 +4610,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R27" library="my_rcl" deviceset="R" device="-1608" value="1k"/>
 <part name="R28" library="my_rcl" deviceset="R" device="-1608" value="DNP"/>
 <part name="+3V3" library="my_supply" deviceset="+3V3" device=""/>
-<part name="CON6" library="my_connector" deviceset="USB-C" device=""/>
+<part name="CON6" library="my_connector" deviceset="USB-C" device="-2OZ" value="USB-C-2OZ"/>
 <part name="IC9" library="my_ic" deviceset="CH221" device=""/>
 <part name="R29" library="my_rcl" deviceset="R" device="-2012" value="1k"/>
 <part name="C49" library="my_rcl" deviceset="C" device="-1608" value="1u"/>
@@ -4732,6 +4788,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R41" library="my_rcl" deviceset="R" device="-1608" value="22"/>
 <part name="C80" library="my_rcl" deviceset="C" device="-1608" value="100p"/>
 <part name="SUPPLY118" library="my_supply" deviceset="GND" device=""/>
+<part name="TP5" library="my_connector" deviceset="TESTPIN" device="" value="G"/>
+<part name="SUPPLY125" library="my_supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5636,6 +5694,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="387.35" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY118" gate="GND" x="386.08" y="104.14" smashed="yes" rot="MR0"/>
+<instance part="TP5" gate="G$1" x="675.64" y="106.68" smashed="yes" rot="R90">
+<attribute name="VALUE" x="671.195" y="107.315" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SUPPLY125" gate="GND" x="680.72" y="106.68" smashed="yes" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6142,6 +6204,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="C80" gate="G$1" pin="2"/>
 <pinref part="SUPPLY118" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="1"/>
+<pinref part="SUPPLY125" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
