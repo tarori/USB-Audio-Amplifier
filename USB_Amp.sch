@@ -2868,26 +2868,26 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32G030F">
-<pin name="IO1" x="-15.24" y="12.7" length="middle"/>
-<pin name="IO2" x="-15.24" y="10.16" length="middle"/>
-<pin name="IO3" x="-15.24" y="7.62" length="middle"/>
+<pin name="PB7/8" x="-15.24" y="12.7" length="middle"/>
+<pin name="PB9" x="-15.24" y="10.16" length="middle"/>
+<pin name="PC15" x="-15.24" y="7.62" length="middle"/>
 <pin name="VDD" x="-15.24" y="5.08" length="middle" direction="pwr"/>
 <pin name="VSS" x="-15.24" y="2.54" length="middle" direction="pwr"/>
-<pin name="IO6/NRST" x="-15.24" y="0" length="middle"/>
-<pin name="IO7" x="-15.24" y="-2.54" length="middle"/>
-<pin name="IO8" x="-15.24" y="-5.08" length="middle"/>
-<pin name="IO9" x="-15.24" y="-7.62" length="middle"/>
-<pin name="IO10" x="-15.24" y="-10.16" length="middle"/>
-<pin name="IO11" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="IO12" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="IO13" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="IO14" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="IO15" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="IO16" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="IO17" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="NRST" x="-15.24" y="0" length="middle"/>
+<pin name="PA0" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PA1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PA2" x="-15.24" y="-7.62" length="middle"/>
+<pin name="PA3" x="-15.24" y="-10.16" length="middle"/>
+<pin name="PA4" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="PA5" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA6" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA7" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA8/B0-2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="PA11" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="PA12" x="15.24" y="5.08" length="middle" rot="R180"/>
 <pin name="SWDIO" x="15.24" y="7.62" length="middle" rot="R180"/>
 <pin name="SWCLK" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="IO20" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="PB3-6" x="15.24" y="12.7" length="middle" rot="R180"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="15.24" width="0.254" layer="94"/>
@@ -3143,22 +3143,22 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <devices>
 <device name="" package="TSSOP20">
 <connects>
-<connect gate="G$1" pin="IO1" pad="1"/>
-<connect gate="G$1" pin="IO10" pad="10"/>
-<connect gate="G$1" pin="IO11" pad="11"/>
-<connect gate="G$1" pin="IO12" pad="12"/>
-<connect gate="G$1" pin="IO13" pad="13"/>
-<connect gate="G$1" pin="IO14" pad="14"/>
-<connect gate="G$1" pin="IO15" pad="15"/>
-<connect gate="G$1" pin="IO16" pad="16"/>
-<connect gate="G$1" pin="IO17" pad="17"/>
-<connect gate="G$1" pin="IO2" pad="2"/>
-<connect gate="G$1" pin="IO20" pad="20"/>
-<connect gate="G$1" pin="IO3" pad="3"/>
-<connect gate="G$1" pin="IO6/NRST" pad="6"/>
-<connect gate="G$1" pin="IO7" pad="7"/>
-<connect gate="G$1" pin="IO8" pad="8"/>
-<connect gate="G$1" pin="IO9" pad="9"/>
+<connect gate="G$1" pin="NRST" pad="6"/>
+<connect gate="G$1" pin="PA0" pad="7"/>
+<connect gate="G$1" pin="PA1" pad="8"/>
+<connect gate="G$1" pin="PA11" pad="16"/>
+<connect gate="G$1" pin="PA12" pad="17"/>
+<connect gate="G$1" pin="PA2" pad="9"/>
+<connect gate="G$1" pin="PA3" pad="10"/>
+<connect gate="G$1" pin="PA4" pad="11"/>
+<connect gate="G$1" pin="PA5" pad="12"/>
+<connect gate="G$1" pin="PA6" pad="13"/>
+<connect gate="G$1" pin="PA7" pad="14"/>
+<connect gate="G$1" pin="PA8/B0-2" pad="15"/>
+<connect gate="G$1" pin="PB3-6" pad="20"/>
+<connect gate="G$1" pin="PB7/8" pad="1"/>
+<connect gate="G$1" pin="PB9" pad="2"/>
+<connect gate="G$1" pin="PC15" pad="3"/>
 <connect gate="G$1" pin="SWCLK" pad="19"/>
 <connect gate="G$1" pin="SWDIO" pad="18"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
@@ -6303,7 +6303,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO1"/>
+<pinref part="IC7" gate="G$1" pin="PB7/8"/>
 <wire x1="523.24" y1="66.04" x2="515.62" y2="66.04" width="0.1524" layer="91"/>
 <label x="513.08" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R25" gate="G$1" pin="1"/>
@@ -6319,7 +6319,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO2"/>
+<pinref part="IC7" gate="G$1" pin="PB9"/>
 <wire x1="523.24" y1="63.5" x2="520.7" y2="63.5" width="0.1524" layer="91"/>
 <label x="513.08" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -6434,7 +6434,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="CON5" gate="G$1" pin="TX"/>
 <wire x1="574.04" y1="53.34" x2="586.74" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="IO9"/>
+<pinref part="IC7" gate="G$1" pin="PA2"/>
 <wire x1="523.24" y1="45.72" x2="520.7" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="520.7" y1="45.72" x2="520.7" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="520.7" y1="33.02" x2="574.04" y2="33.02" width="0.1524" layer="91"/>
@@ -6448,7 +6448,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="508" y1="35.56" x2="515.62" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="35.56" x2="556.26" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="556.26" y1="35.56" x2="556.26" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="IO11"/>
+<pinref part="IC7" gate="G$1" pin="PA4"/>
 <wire x1="556.26" y1="43.18" x2="553.72" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="508" y1="33.02" x2="508" y2="35.56" width="0.1524" layer="91"/>
@@ -6466,7 +6466,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="EN_DDC" class="0">
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO8"/>
+<pinref part="IC7" gate="G$1" pin="PA1"/>
 <wire x1="523.24" y1="48.26" x2="520.7" y2="48.26" width="0.1524" layer="91"/>
 <label x="520.7" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6570,7 +6570,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="134.62" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO15"/>
+<pinref part="IC7" gate="G$1" pin="PA8/B0-2"/>
 <wire x1="553.72" y1="53.34" x2="556.26" y2="53.34" width="0.1524" layer="91"/>
 <label x="556.26" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6582,7 +6582,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="134.62" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO13"/>
+<pinref part="IC7" gate="G$1" pin="PA6"/>
 <wire x1="553.72" y1="48.26" x2="556.26" y2="48.26" width="0.1524" layer="91"/>
 <label x="556.26" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6594,7 +6594,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="134.62" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO14"/>
+<pinref part="IC7" gate="G$1" pin="PA7"/>
 <wire x1="553.72" y1="50.8" x2="556.26" y2="50.8" width="0.1524" layer="91"/>
 <label x="556.26" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7252,9 +7252,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="264.16" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="RE0"/>
-<wire x1="93.98" y1="132.08" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
-<label x="93.98" y="134.62" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="96.52" y1="132.08" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
+<label x="96.52" y="134.62" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="RF1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7378,20 +7378,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$39" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
-<pinref part="IC7" gate="G$1" pin="IO16"/>
+<pinref part="IC7" gate="G$1" pin="PA11"/>
 <wire x1="556.26" y1="55.88" x2="553.72" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
-<pinref part="IC7" gate="G$1" pin="IO17"/>
+<pinref part="IC7" gate="G$1" pin="PA12"/>
 <wire x1="556.26" y1="58.42" x2="553.72" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED0" class="0">
 <segment>
-<pinref part="IC7" gate="G$1" pin="IO3"/>
+<pinref part="IC7" gate="G$1" pin="PC15"/>
 <wire x1="523.24" y1="60.96" x2="520.7" y2="60.96" width="0.1524" layer="91"/>
 <label x="520.7" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
