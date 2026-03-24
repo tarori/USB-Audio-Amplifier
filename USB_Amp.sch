@@ -4953,9 +4953,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <part name="R14" library="my_rcl" deviceset="R" device="-3216" value="1k"/>
 <part name="SUPPLY98" library="my_supply" deviceset="GND" device=""/>
 <part name="P+3" library="my_supply" deviceset="+12V" device=""/>
-<part name="L2" library="my_rcl" deviceset="L-DUAL" device="" value="7uH"/>
+<part name="L2" library="my_rcl" deviceset="L-DUAL" device="" value="7uH-UA8013"/>
 <part name="C52" library="my_rcl" deviceset="C" device="-5W" value="0.22u"/>
-<part name="L1" library="my_rcl" deviceset="L-DUAL" device="" value="7uH"/>
+<part name="L1" library="my_rcl" deviceset="L-DUAL" device="" value="7uH-UA8013"/>
 <part name="C55" library="my_rcl" deviceset="C" device="-2012" value="1n"/>
 <part name="C56" library="my_rcl" deviceset="C" device="-2012" value="1n"/>
 <part name="SUPPLY45" library="my_supply" deviceset="GND" device=""/>
@@ -5100,8 +5100,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <part name="C19" library="my_rcl" deviceset="CPOL" device="2012" value="2.2u"/>
 <part name="SUPPLY134" library="my_supply" deviceset="GND" device=""/>
 <part name="R19" library="my_rcl" deviceset="R" device="-1005" value="SCK"/>
-<part name="R20" library="my_rcl" deviceset="R" device="-1005" value="LRCLK"/>
-<part name="R21" library="my_rcl" deviceset="R" device="-1005" value="DATA"/>
+<part name="R20" library="my_rcl" deviceset="R" device="-1005" value="DATA"/>
+<part name="R21" library="my_rcl" deviceset="R" device="-1005" value="LRCLK"/>
 <part name="IC8" library="my_ic" deviceset="74LVC1G79" device=""/>
 <part name="IC9" library="my_ic" deviceset="74LVC1G79" device=""/>
 <part name="IC10" library="my_ic" deviceset="74LVC1G79" device=""/>
@@ -5192,6 +5192,10 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <part name="TP18" library="my_connector" deviceset="TESTPIN" device="" value="G"/>
 <part name="SUPPLY170" library="my_supply" deviceset="GND" device=""/>
 <part name="SUPPLY171" library="my_supply" deviceset="GND" device=""/>
+<part name="TP19" library="my_connector" deviceset="TESTPIN" device="-MID" value="L_P"/>
+<part name="TP20" library="my_connector" deviceset="TESTPIN" device="-MID" value="L_P"/>
+<part name="TP21" library="my_connector" deviceset="TESTPIN" device="-MID" value="R_N"/>
+<part name="TP22" library="my_connector" deviceset="TESTPIN" device="-MID" value="R_N"/>
 </parts>
 <sheets>
 <sheet>
@@ -5659,20 +5663,20 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <attribute name="VALUE" x="314.96" y="90.17" size="1.778" layer="96"/>
 </instance>
 <instance part="L2" gate="G$1" x="401.32" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="406.4" y="130.81" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="406.4" y="135.89" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="396.24" y="134.62" size="1.778" layer="95"/>
+<attribute name="VALUE" x="393.7" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C52" gate="G$1" x="340.36" y="125.73" smashed="yes">
 <attribute name="NAME" x="341.63" y="126.365" size="1.778" layer="95"/>
 <attribute name="VALUE" x="341.63" y="123.19" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="332.74" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="337.82" y="118.11" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="337.82" y="123.19" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="327.66" y="116.84" size="1.778" layer="95"/>
+<attribute name="VALUE" x="325.12" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$2" x="332.74" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="327.66" y="133.35" size="1.778" layer="95"/>
-<attribute name="VALUE" x="327.66" y="128.27" size="1.778" layer="96"/>
+<attribute name="VALUE" x="325.12" y="128.27" size="1.778" layer="96"/>
 </instance>
 <instance part="C55" gate="G$1" x="347.98" y="137.16" smashed="yes">
 <attribute name="NAME" x="349.25" y="137.795" size="1.778" layer="95"/>
@@ -5703,8 +5707,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <attribute name="VALUE" x="361.315" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L2" gate="G$2" x="401.32" y="119.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="396.24" y="120.65" size="1.778" layer="95"/>
-<attribute name="VALUE" x="396.24" y="115.57" size="1.778" layer="96"/>
+<attribute name="NAME" x="396.24" y="115.57" size="1.778" layer="95"/>
+<attribute name="VALUE" x="393.7" y="120.65" size="1.778" layer="96"/>
 </instance>
 <instance part="C66" gate="G$1" x="408.94" y="114.3" smashed="yes">
 <attribute name="NAME" x="410.21" y="114.935" size="1.778" layer="95"/>
@@ -6335,6 +6339,18 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 </instance>
 <instance part="SUPPLY170" gate="GND" x="223.52" y="43.18" smashed="yes" rot="R90"/>
 <instance part="SUPPLY171" gate="GND" x="223.52" y="38.1" smashed="yes" rot="R90"/>
+<instance part="TP19" gate="G$1" x="363.22" y="123.19" smashed="yes" rot="R270">
+<attribute name="VALUE" x="367.665" y="122.555" size="1.778" layer="95"/>
+</instance>
+<instance part="TP20" gate="G$1" x="363.22" y="128.27" smashed="yes" rot="R270">
+<attribute name="VALUE" x="367.665" y="127.635" size="1.778" layer="95"/>
+</instance>
+<instance part="TP21" gate="G$1" x="431.8" y="128.27" smashed="yes" rot="R270">
+<attribute name="VALUE" x="436.245" y="127.635" size="1.778" layer="95"/>
+</instance>
+<instance part="TP22" gate="G$1" x="431.8" y="123.19" smashed="yes" rot="R270">
+<attribute name="VALUE" x="436.245" y="122.555" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7462,6 +7478,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="358.14" y1="134.62" x2="358.14" y2="132.08" width="0.1524" layer="91"/>
 <junction x="358.14" y="132.08"/>
+<pinref part="TP20" gate="G$1" pin="1"/>
+<wire x1="360.68" y1="128.27" x2="358.14" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="128.27" x2="358.14" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPK_OUTN_L" class="0">
@@ -7485,6 +7504,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="358.14" y1="116.84" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
 <junction x="358.14" y="119.38"/>
+<pinref part="TP19" gate="G$1" pin="1"/>
+<wire x1="358.14" y1="119.38" x2="358.14" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="123.19" x2="360.68" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+8V" class="0">
@@ -7582,6 +7604,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <junction x="426.72" y="132.08"/>
 <pinref part="C65" gate="G$1" pin="1"/>
 <wire x1="408.94" y1="128.27" x2="408.94" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="TP21" gate="G$1" pin="1"/>
+<wire x1="429.26" y1="128.27" x2="426.72" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="128.27" x2="426.72" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPK_OUTN_R" class="0">
@@ -7605,6 +7630,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf</d
 <junction x="426.72" y="119.38"/>
 <pinref part="C65" gate="G$1" pin="2"/>
 <wire x1="408.94" y1="123.19" x2="408.94" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="TP22" gate="G$1" pin="1"/>
+<wire x1="426.72" y1="119.38" x2="426.72" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="123.19" x2="429.26" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
